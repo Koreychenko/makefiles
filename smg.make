@@ -41,7 +41,7 @@ projects[] = wysiwyg
 projects[] = multiupload_filefield_widget
 projects[] = multiupload_imagefield_widget
 projects[] = media
-projects[] = clone
+projects[] = node_clone
 projects[] = menu_editor
 projects[] = date
 
