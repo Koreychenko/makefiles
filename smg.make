@@ -2,74 +2,103 @@
 core = 7.x
 api = 2
 
+;Core
+
 projects[] = drupal
-projects[] = views_bulk_operations
-projects[] = admin_menu
-projects[] = admin_views
-projects[] = ctools
-projects[] = ckeditor
-projects[] = ckeditor_link
-projects[] = colorbox
-projects[] = devel
-projects[] = display_cache
 
-projects[] = editableviews
-
+;Structure
+projects[] = panels
+projects[] = panelizer
+projects[] = context
+projects[] = entity_view_mode
 projects[] = entity
-
 projects[] = entityreference
-
-projects[] = field_formatter_settings
-
-projects[] = field_multiple_limit
-
-projects[] = filefield_sources
-
-projects[] = globalredirect
-
 projects[] = imagecache_actions
-
-projects[] = imagecache_token
-
-projects[] = imce
-
-projects[] = jquery_update
-
-projects[] = l10n_update
-
-projects[] = less
-
 projects[] = libraries
-
-projects[] = linkchecker
-
-projects[] = menu_editor
-
-projects[] = metatag
-
-projects[] = mollom
-
-projects[] = multiupload_filefield_widget
-
-projects[] = multiupload_imagefield_widget
-
-projects[] = nodequeue
-
-projects[] = path_breadcrumbs
-
-projects[] = pathauto
-
-projects[] = smtp
-
-projects[] = token
-
-projects[] = transliteration
-
+projects[] = taxonomy_menu
+projects[] = tvi
 projects[] = views
-
+projects[] = transliteration
+projects[] = token
 projects[] = webform
 
+;Content
+projects[] = views_bulk_operations
+projects[] = ckeditor
+projects[] = ckeditor_link
+projects[] = bundle_copy
+projects[] = field_group
+projects[] = field_multiple_limit
+projects[] = field_formatter_settings
+projects[] = filefield_sources
+projects[] = references_dialog
+projects[] = link
+projects[] = imce_wysiwyg
+projects[] = imce
+projects[] = image_resize_filter
+projects[] = wysiwyg_template
+projects[] = wysiwyg
+projects[] = multiupload_filefield_widget
+projects[] = multiupload_imagefield_widget
+projects[] = media
+projects[] = clone
+projects[] = menu_editor
+projects[] = date
+
+;Themisation
+projects[] = better_exposed_filters
+projects[] = chosen
+projects[] = compact_forms
+projects[] = flexslider
+projects[] = webform_ajax
+
+;User
+projects[] = captcha
+projects[] = email_registration
+projects[] = mollom
+
+;Administration
+projects[] = admin_menu
+projects[] = admin_views
+projects[] = editableviews
+projects[] = module_filter
+projects[] = l10n_update
+projects[] = nodequeue
+projects[] = rules
+
+;Performance
+projects[] = display_cache
+projects[] = entitycache
+
+;Helpers
+projects[] = ctools
+projects[] = colorbox
+
+;Develoment
+projects[] = devel
+projects[] = features
+projects[] = jquery_update
+projects[] = less
+
+;Email
+projects[] = htmlmail
+projects[] = mailsystem
+projects[] = smtp
+
+;SEO
+projects[] = globalredirect
+projects[] = redirect
+projects[] = imagecache_token
+projects[] = simplemeta
+projects[] = linkchecker
+projects[] = metatag
+projects[] = path_breadcrumbs
+projects[] = pathauto
 projects[] = xmlsitemap
+
+;Search
+projects[] = search_api
+projects[] = search_api_db
 
 ; Themes
 projects[] = bootstrap
@@ -95,6 +124,11 @@ libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
+
+libraries[chosen][download][type] = "file"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/1.4.2/chosen_v1.4.2.zip"
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][type] = "library"
 
 ;Profiles
 projects[smg][download][type] = "git"
