@@ -44,6 +44,7 @@ projects[] = media
 projects[] = node_clone
 projects[] = menu_editor
 projects[] = date
+projects[] = bean
 
 ;Themisation
 projects[] = better_exposed_filters
