@@ -52,6 +52,7 @@ projects[] = chosen
 projects[] = compact_forms
 projects[] = flexslider
 projects[] = webform_ajax
+projects[] = panels_bootstrap_layouts
 
 ;User
 projects[] = captcha
