@@ -52,7 +52,7 @@ projects[] = better_exposed_filters
 projects[] = chosen
 projects[compact_forms][patch][] = https://www.drupal.org/files/html5_fields-1405834-8.patch
 projects[] = webform_ajax
-projects[] = panels_bootstrap_layout_builder
+projects[panels_bootstrap_layout_builder][varsion] = 7.x-3.x-dev
 projects[] = owlcarousel
 
 ;User
