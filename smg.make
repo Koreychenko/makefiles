@@ -135,7 +135,7 @@ libraries[chosen][directory_name] = "chosen"
 libraries[chosen][type] = "library"
 
 libraries[owl_carousel][download][type] = "git"
-libraries[owl_carousel][download][url] = "https://github.com/OwlFonk"
+libraries[owl_carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel"
 libraries[owl_carousel][directory_name] = "owl-carousel"
 libraries[owl_carousel][type] = "library"
 
