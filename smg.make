@@ -52,7 +52,6 @@ projects[] = better_exposed_filters
 projects[] = chosen
 projects[] = compact_forms
 projects[] = webform_ajax
-projects[panels_bootstrap_layout_builder][varsion] = 7.x-3.x-dev
 projects[] = owlcarousel
 
 ;User
@@ -155,3 +154,14 @@ projects[sasta_base][download][type] = "git"
 projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
 projects[sasta_base][download][branch] = "master"
 projects[sasta_base][type] = "module"
+
+projects[panels_bootstrap_layout_builder][download][type] = "git"
+projects[panels_bootstrap_layout_builder][download][url] = "http://git.drupal.org/project/panels_bootstrap_layout_builder.git"
+projects[panels_bootstrap_layout_builder][download][branch] = "7.x-3.x"
+projects[panels_bootstrap_layout_builder][type] = "module"
+
+libraries[bootstrap][download][type] = "file"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.4/bootstrap-3.3.4-dist.zip"
+libraries[bootstrap][directory_name] = "bootstrap"
+libraries[bootstrap][type] = "library"
+
