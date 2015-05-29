@@ -21,6 +21,7 @@ projects[] = views
 projects[] = transliteration
 projects[] = token
 projects[] = webform
+projects[] = menu_icons
 
 ;Content
 projects[] = views_bulk_operations
@@ -50,9 +51,10 @@ projects[] = bean
 projects[] = better_exposed_filters
 projects[] = chosen
 projects[] = compact_forms
-projects[] = flexslider
+projects[compact_forms][patch][] = https://www.drupal.org/files/html5_fields-1405834-8.patch
 projects[] = webform_ajax
-projects[] = panels_bootstrap_layouts
+projects[] = panels_bootstrap_layout_builder
+projects[] = owlcarousel
 
 ;User
 projects[] = captcha
@@ -81,6 +83,7 @@ projects[] = devel
 projects[] = features
 projects[] = jquery_update
 projects[] = less
+projects[] = variable
 
 ;Email
 projects[] = htmlmail
@@ -132,8 +135,24 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][type] = "library"
 
+libraries[owl_carousel][download][type] = "git"
+libraries[owl_carousel][download][url] = "https://github.com/OwlFonk"
+libraries[owl_carousel][directory_name] = "owl-carousel"
+libraries[owl_carousel][type] = "library"
+
 ;Profiles
 projects[smg][download][type] = "git"
 projects[smg][download][url] = "https://github.com/Koreychenko/baseprofile"
 projects[smg][download][branch] = "master"
 projects[smg][type] = "profile"
+
+;Themes
+projects[sasta_bs][download][type] = "git"
+projects[sasta_bs][download][url] = "https://github.com/Koreychenko/sasta_bs"
+projects[sasta_bs][download][branch] = "master"
+projects[sasta_bs][type] = "theme"
+
+projects[sasta_base][download][type] = "git"
+projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
+projects[sasta_base][download][branch] = "master"
+projects[sasta_base][type] = "module"
