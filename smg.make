@@ -82,6 +82,7 @@ projects[] = features
 projects[] = jquery_update
 projects[] = less
 projects[] = variable
+projects[] = strongarm
 
 ;Email
 projects[] = htmlmail
