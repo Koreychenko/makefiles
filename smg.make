@@ -105,6 +105,7 @@ projects[] = xmlsitemap
 ;Search
 projects[] = search_api
 projects[] = search_api_db
+projects[] = facetapi
 
 ; Themes
 projects[] = bootstrap
