@@ -47,6 +47,7 @@ projects[] = node_clone
 projects[] = menu_editor
 projects[] = date
 projects[] = bean
+projects[] = features_extra
 
 ;Themisation
 projects[] = better_exposed_filters
