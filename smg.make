@@ -148,10 +148,10 @@ projects[smg][download][branch] = "master"
 projects[smg][type] = "profile"
 
 ;Themes
-projects[sasta_bs][download][type] = "git"
-projects[sasta_bs][download][url] = "https://github.com/Koreychenko/sasta_bs"
-projects[sasta_bs][download][branch] = "master"
-projects[sasta_bs][type] = "theme"
+projects[sasta_mat][download][type] = "git"
+projects[sasta_mat][download][url] = "https://github.com/Koreychenko/sasta_mat"
+projects[sasta_mat][download][branch] = "master"
+projects[sasta_mat][type] = "theme"
 
 projects[sasta_base][download][type] = "git"
 projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
@@ -162,9 +162,3 @@ projects[panels_bootstrap_layout_builder][download][type] = "git"
 projects[panels_bootstrap_layout_builder][download][url] = "http://git.drupal.org/project/panels_bootstrap_layout_builder.git"
 projects[panels_bootstrap_layout_builder][download][branch] = "7.x-3.x"
 projects[panels_bootstrap_layout_builder][type] = "module"
-
-libraries[bootstrap][download][type] = "file"
-libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.4/bootstrap-3.3.4-dist.zip"
-libraries[bootstrap][directory_name] = "bootstrap"
-libraries[bootstrap][type] = "library"
-
