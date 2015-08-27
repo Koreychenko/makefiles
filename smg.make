@@ -96,7 +96,7 @@ projects[] = imagecache_token
 projects[] = simplemeta
 projects[] = linkchecker
 projects[] = path_breadcrumbs
-projects[path_metatags][version] = 7.x-1.x-dev
+projects[path_metatags][version] = 1.x-dev
 projects[] = pathauto
 projects[] = xmlsitemap
 
