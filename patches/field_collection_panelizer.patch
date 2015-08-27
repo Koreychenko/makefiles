@@ -1,8 +1,5 @@
-diff --git a/panelizer_patched/plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php b/panelizer_patched/plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php
-new file mode 100644
-index 0000000..c366b9f
---- /dev/null
-+++ b/panelizer_patched/plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php
+--- /dev/null	2015-08-25 23:45:23.772704014 +0300
++++ plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php	2015-08-27 13:56:51.143691710 +0300
 @@ -0,0 +1,73 @@
 +<?php
 +/**
@@ -77,11 +74,8 @@ index 0000000..c366b9f
 +    return $handlers;
 +  }
 +}
-diff --git a/panelizer_patched/plugins/entity/field_collection_item.inc b/panelizer_patched/plugins/entity/field_collection_item.inc
-new file mode 100644
-index 0000000..6df3f1e
---- /dev/null
-+++ b/panelizer_patched/plugins/entity/field_collection_item.inc
+--- /dev/null	2015-08-25 23:45:23.772704014 +0300
++++ plugins/entity/field_collection_item.inc	2015-08-27 13:56:51.143691710 +0300
 @@ -0,0 +1,21 @@
 +<?php
 +/**
