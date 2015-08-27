@@ -46,6 +46,7 @@ projects[] = date
 projects[] = features_extra
 projects[] = layouter
 projects[] = token_filter
+projects[] = field_collection
 
 ;Themisation
 projects[] = better_exposed_filters
