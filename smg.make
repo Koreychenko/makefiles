@@ -46,7 +46,7 @@ projects[] = date
 projects[] = features_extra
 projects[] = layouter
 projects[] = token_filter
-projects[] = field_collection
+projects[field_collection][patch][] = https://www.drupal.org/files/issues/field_collection-panelizer-integration-2422979-11.patch
 
 ;Themisation
 projects[] = better_exposed_filters
