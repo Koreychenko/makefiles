@@ -46,7 +46,6 @@ projects[] = features_extra
 projects[] = layouter
 projects[] = token_filter
 projects[] = field_collection
-projects[panelizer][patch][] = makefiles/patches/field_collection_panelizer.patch
 
 ;Themisation
 projects[] = better_exposed_filters
@@ -173,3 +172,8 @@ projects[callbackform][download][type] = "git"
 projects[callbackform][download][url] = "https://github.com/Koreychenko/callbackform"
 projects[callbackform][download][branch] = "master"
 projects[callbackform][type] = "module"
+
+projects[panelizer][download][type] = "git"
+projects[panelizer][download][url] = "https://github.com/Koreychenko/panelizer"
+projects[panelizer][download][branch] = "master"
+projects[panelizer][type] = "module"
