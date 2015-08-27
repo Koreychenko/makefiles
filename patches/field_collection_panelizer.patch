@@ -4,11 +4,11 @@ Date: Fri, 29 May 2015 21:27:12 -0300
 Subject: Issue #2110273 by osopolar: Panelizer support for field_collection?
 
 
-diff --git a/plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php
+diff --git a/plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php ./plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php
 new file mode 100644
 index 0000000..529f2a8
 --- /dev/null
-+++ plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php
++++ ./plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php
 @@ -0,0 +1,73 @@
 +<?php
 +/**
@@ -83,11 +83,11 @@ index 0000000..529f2a8
 +    return $handlers;
 +  }
 +}
-diff --git a/plugins/entity/field_collection_item.inc plugins/entity/field_collection_item.inc
+diff --git a/plugins/entity/field_collection_item.inc ./plugins/entity/field_collection_item.inc
 new file mode 100644
 index 0000000..6df3f1e
 --- /dev/null
-+++ plugins/entity/field_collection_item.inc
++++ ./plugins/entity/field_collection_item.inc
 @@ -0,0 +1,21 @@
 +<?php
 +/**
