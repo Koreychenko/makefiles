@@ -8,7 +8,6 @@ projects[] = drupal
 
 ;Structure
 projects[] = panels
-projects[] = panelizer
 projects[] = panels_everywhere
 projects[] = entity_view_mode
 projects[] = entity
@@ -46,7 +45,8 @@ projects[] = date
 projects[] = features_extra
 projects[] = layouter
 projects[] = token_filter
-projects[field_collection][patch][] = patches/field_collection_panelizer.patch
+projects[] = field_collection
+projects[panelizer][patch][] = makefiles/patches/field_collection_panelizer.patch
 
 ;Themisation
 projects[] = better_exposed_filters
