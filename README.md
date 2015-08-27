@@ -8,5 +8,7 @@ drush site-install smg -y --account-name=admin --account-pass=admin --db-url=mys
 
 #Generating dummy content
 drush genc 5 --types=slider
+
 drush genc 10 --types=page
+
 drush gent sections 10
