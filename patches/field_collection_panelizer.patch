@@ -8,7 +8,7 @@ diff --git a/plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php b
 new file mode 100644
 index 0000000..529f2a8
 --- /dev/null
-+++ b/ctools/entity/FieldCollectionEntityFieldCollectionItem.class.php
++++ plugins/entity/FieldCollectionEntityFieldCollectionItem.class.php
 @@ -0,0 +1,73 @@
 +<?php
 +/**
@@ -87,7 +87,7 @@ diff --git a/plugins/entity/field_collection_item.inc b/ctools/plugins/field_col
 new file mode 100644
 index 0000000..6df3f1e
 --- /dev/null
-+++ b/ctools/entity/field_collection_item.inc
++++ plugins/entity/field_collection_item.inc
 @@ -0,0 +1,21 @@
 +<?php
 +/**
