@@ -9,19 +9,19 @@ projects[] = drupal
 ;Structure
 projects[] = panels
 projects[] = panelizer
-projects[] = context
+projects[] = panels_everywhere
 projects[] = entity_view_mode
 projects[] = entity
 projects[] = entityreference
 projects[] = imagecache_actions
 projects[] = libraries
 projects[] = taxonomy_menu
-projects[] = tvi
 projects[] = views
 projects[] = transliteration
 projects[] = token
 projects[] = webform
-projects[] = menu_icons
+projects[] = conditional_fields
+projects[] = semantic_panels
 
 ;Content
 projects[] = views_bulk_operations
@@ -37,8 +37,6 @@ projects[] = link
 projects[] = imce_wysiwyg
 projects[] = imce
 projects[] = image_resize_filter
-projects[] = wysiwyg_template
-projects[] = wysiwyg
 projects[] = multiupload_filefield_widget
 projects[] = multiupload_imagefield_widget
 projects[] = media
@@ -46,15 +44,15 @@ projects[] = file_entity
 projects[] = node_clone
 projects[] = menu_editor
 projects[] = date
-projects[] = bean
 projects[] = features_extra
+projects[] = layouter
+projects[] = token_filter
 
 ;Themisation
 projects[] = better_exposed_filters
 projects[] = chosen
-projects[] = compact_forms
-projects[] = webform_ajax
-projects[] = owlcarousel
+projects[] = slick
+projects[] = slick_views
 
 ;User
 projects[] = captcha
@@ -137,10 +135,16 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][type] = "library"
 
-libraries[owl_carousel][download][type] = "git"
-libraries[owl_carousel][download][url] = "https://github.com/OwlFonk/OwlCarousel"
-libraries[owl_carousel][directory_name] = "owl-carousel"
-libraries[owl_carousel][type] = "library"
+libraries[slick][download][type] = "file"
+libraries[slick][download][url] = "https://github.com/kenwheeler/slick/archive/master.zip"
+libraries[slick][directory_name] = "slick"
+libraries[slick][type] = "library"
+
+libraries[easing][download][type] = "file"
+libraries[easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"
+libraries[easing][download][filename] = "jquery.easing.min.js"
+libraries[easing][directory_name] = "easing"
+libraries[easing][type] = "library"
 
 ;Profiles
 projects[smg][download][type] = "git"
@@ -149,17 +153,23 @@ projects[smg][download][branch] = "master"
 projects[smg][type] = "profile"
 
 ;Themes
-projects[sasta_mat][download][type] = "git"
-projects[sasta_mat][download][url] = "https://github.com/Koreychenko/sasta_mat"
-projects[sasta_mat][download][branch] = "master"
-projects[sasta_mat][type] = "theme"
+projects[sasta_bs][download][type] = "git"
+projects[sasta_bs][download][url] = "https://github.com/Koreychenko/sasta_bs"
+projects[sasta_bs][download][branch] = "master"
+projects[sasta_bs][type] = "theme"
 
+;Custom modules
 projects[sasta_base][download][type] = "git"
 projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
 projects[sasta_base][download][branch] = "master"
 projects[sasta_base][type] = "module"
 
-projects[panels_bootstrap_layout_builder][download][type] = "git"
-projects[panels_bootstrap_layout_builder][download][url] = "http://git.drupal.org/project/panels_bootstrap_layout_builder.git"
-projects[panels_bootstrap_layout_builder][download][branch] = "7.x-3.x"
-projects[panels_bootstrap_layout_builder][type] = "module"
+projects[sasta_panelst][download][type] = "git"
+projects[sasta_panelst][download][url] = "https://github.com/Koreychenko/sasta_panelst"
+projects[sasta_panelst][download][branch] = "master"
+projects[sasta_panelst][type] = "module"
+
+projects[callbackform][download][type] = "git"
+projects[callbackform][download][url] = "https://github.com/Koreychenko/callbackform"
+projects[callbackform][download][branch] = "master"
+projects[callbackform][type] = "module"
