@@ -34,7 +34,6 @@ projects[] = field_formatter_settings
 projects[] = filefield_sources
 projects[] = references_dialog
 projects[] = link
-projects[] = imce_wysiwyg
 projects[] = imce
 projects[] = image_resize_filter
 projects[] = multiupload_filefield_widget
