@@ -12,7 +12,7 @@ index 0000000..529f2a8
 @@ -0,0 +1,73 @@
 +<?php
 +/**
-+ * @file
++ * @filegit
 + * Class for the Panelizer field_collection_item entity plugin.
 + */
 +
