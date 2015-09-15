@@ -20,7 +20,8 @@ projects[] = transliteration
 projects[] = token
 projects[] = webform
 projects[] = conditional_fields
-projects[] = semantic_panels
+projects[] = panelizer
+projects[] = fieldable_panels_panes
 
 ;Content
 projects[] = views_bulk_operations
@@ -43,7 +44,6 @@ projects[] = node_clone
 projects[] = menu_editor
 projects[] = date
 projects[] = features_extra
-projects[] = layouter
 projects[] = token_filter
 projects[] = field_collection
 
@@ -64,7 +64,6 @@ projects[] = admin_views
 projects[] = editableviews
 projects[] = module_filter
 projects[] = l10n_update
-projects[] = nodequeue
 projects[] = rules
 
 ;Performance
@@ -158,22 +157,17 @@ projects[sasta_bs][download][branch] = "master"
 projects[sasta_bs][type] = "theme"
 
 ;Custom modules
-projects[sasta_base][download][type] = "git"
-projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
-projects[sasta_base][download][branch] = "master"
-projects[sasta_base][type] = "module"
+;projects[sasta_base][download][type] = "git"
+;projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
+;projects[sasta_base][download][branch] = "master"
+;projects[sasta_base][type] = "module"
 
 projects[sasta_panelst][download][type] = "git"
 projects[sasta_panelst][download][url] = "https://github.com/Koreychenko/sasta_panelst"
 projects[sasta_panelst][download][branch] = "master"
 projects[sasta_panelst][type] = "module"
 
-projects[callbackform][download][type] = "git"
-projects[callbackform][download][url] = "https://github.com/Koreychenko/callbackform"
-projects[callbackform][download][branch] = "master"
-projects[callbackform][type] = "module"
-
-projects[panelizer][download][type] = "git"
-projects[panelizer][download][url] = "https://github.com/Koreychenko/panelizer"
-projects[panelizer][download][branch] = "master"
-projects[panelizer][type] = "module"
+projects[callback][download][type] = "git"
+projects[callback][download][url] = "https://github.com/Koreychenko/callback"
+projects[callback][download][branch] = "master"
+projects[callback][type] = "module"
