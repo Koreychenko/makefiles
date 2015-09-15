@@ -46,6 +46,8 @@ projects[] = date
 projects[] = features_extra
 projects[] = token_filter
 projects[] = field_collection
+projects[] = double_field
+projects[] = table_field
 
 ;Themisation
 projects[] = better_exposed_filters
