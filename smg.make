@@ -141,6 +141,7 @@ projects[smg][download][type] = "git"
 projects[smg][download][url] = "https://github.com/Koreychenko/baseprofile"
 projects[smg][download][branch] = "master"
 projects[smg][type] = "profile"
+projects[smg][subdir] = ""
 
 ;Custom modules
 ;Custom install feature module
