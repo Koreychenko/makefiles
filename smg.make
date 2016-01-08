@@ -156,6 +156,12 @@ projects[sasta_panelst][download][branch] = "master"
 projects[sasta_panelst][type] = "module"
 projects[sasta_panelst][subdir] = "custom"
 
+projects[elements][download][type] = "git"
+projects[elements][download][url] = "https://github.com/Koreychenko/elements"
+projects[elements][download][branch] = "master"
+projects[elements][type] = "module"
+projects[elements][subdir] = "custom"
+
 ;Puzzle base theme
 
 projects[puzzle][type] = "theme"
