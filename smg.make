@@ -9,7 +9,6 @@ projects[] = drupal
 ;Structure
 projects[] = panels
 projects[] = panels_everywhere
-projects[] = entity_view_mode
 projects[] = entity
 projects[] = entityreference
 projects[] = imagecache_actions
@@ -18,8 +17,6 @@ projects[] = taxonomy_menu
 projects[] = views
 projects[] = transliteration
 projects[] = token
-projects[] = webform
-projects[] = conditional_fields
 projects[] = panelizer
 projects[] = fieldable_panels_panes
 
@@ -27,27 +24,22 @@ projects[] = fieldable_panels_panes
 projects[] = views_bulk_operations
 projects[] = ckeditor
 projects[] = ckeditor_link
-projects[] = bundle_copy
 projects[] = field_group
 projects[] = field_multiple_limit
 projects[] = field_formatter_settings
 projects[] = filefield_sources
 projects[] = references_dialog
-projects[] = link
 projects[] = imce
-projects[] = image_resize_filter
 projects[] = multiupload_filefield_widget
 projects[] = multiupload_imagefield_widget
-projects[] = media
 projects[] = file_entity
 projects[] = node_clone
 projects[] = menu_editor
+projects[] = menu_attributes
 projects[] = date
-projects[] = features_extra
 projects[] = token_filter
+projects[] = title
 projects[] = field_collection
-projects[] = double_field
-projects[] = table_field
 
 ;Themisation
 projects[] = better_exposed_filters
@@ -105,9 +97,6 @@ projects[] = search_api
 projects[] = search_api_db
 projects[] = facetapi
 
-; Themes
-projects[] = bootstrap
-
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
@@ -152,24 +141,14 @@ projects[smg][download][url] = "https://github.com/Koreychenko/baseprofile"
 projects[smg][download][branch] = "master"
 projects[smg][type] = "profile"
 
-;Themes
-projects[sasta_bs][download][type] = "git"
-projects[sasta_bs][download][url] = "https://github.com/Koreychenko/sasta_bs"
-projects[sasta_bs][download][branch] = "master"
-projects[sasta_bs][type] = "theme"
-
 ;Custom modules
-;projects[sasta_base][download][type] = "git"
-;projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
-;projects[sasta_base][download][branch] = "master"
-;projects[sasta_base][type] = "module"
+;Custom install feature module
+projects[sasta_base][download][type] = "git"
+projects[sasta_base][download][url] = "https://github.com/Koreychenko/sasta_base"
+projects[sasta_base][download][branch] = "master"
+projects[sasta_base][type] = "module"
 
 projects[sasta_panelst][download][type] = "git"
 projects[sasta_panelst][download][url] = "https://github.com/Koreychenko/sasta_panelst"
 projects[sasta_panelst][download][branch] = "master"
 projects[sasta_panelst][type] = "module"
-
-projects[callback][download][type] = "git"
-projects[callback][download][url] = "https://github.com/Koreychenko/callback"
-projects[callback][download][branch] = "master"
-projects[callback][type] = "module"
