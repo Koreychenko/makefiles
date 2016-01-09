@@ -151,6 +151,12 @@ projects[sasta_base][download][branch] = "master"
 projects[sasta_base][type] = "module"
 projects[sasta_base][subdir] = "custom"
 
+projects[sasta_sitepane][download][type] = "git"
+projects[sasta_sitepane][download][url] = "https://github.com/Koreychenko/sasta_sitepane"
+projects[sasta_sitepane][download][branch] = "master"
+projects[sasta_sitepane][type] = "module"
+projects[sasta_sitepane][subdir] = "custom"
+
 projects[sasta_panelst][download][type] = "git"
 projects[sasta_panelst][download][url] = "https://github.com/Koreychenko/sasta_panelst"
 projects[sasta_panelst][download][branch] = "master"
