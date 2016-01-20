@@ -23,6 +23,7 @@ projects[] = fieldable_panels_panes
 
 ;Content
 projects[] = views_bulk_operations
+projects[] = link
 projects[] = ckeditor
 projects[] = ckeditor_link
 projects[] = field_group
